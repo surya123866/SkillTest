@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
+/* Common Styles */
 * {
   margin: 0;
   padding: 0;
@@ -49,7 +50,9 @@ html {
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
+/* End of Common Styles */
 
+/* Section 1 */
 .section-1 {
   width: auto;
   height: 72.5vh;
@@ -332,13 +335,14 @@ html {
   font-size: 1.7rem;
 }
 
+/* Footer */
 .footer {
   height: 8rem;
   width: 100%;
   position: relative;
   bottom: 0;
-  display: flex;
   background-color: #414f6b;
+  display: flex;
 }
 
 .footer-logo {
@@ -354,10 +358,11 @@ html {
   position: absolute;
   right: 16%;
   align-self: center;
-  color: #5a6c93;
-  font-weight: 700;
-  font-size: 14px;
 }
+/* End of Footer */
+/* End of Section 3 */
+
+/* Responsive */
 
 @media (max-width: 1500px) {
   html {
@@ -470,6 +475,11 @@ html {
     overflow: hidden;
     height: 14vh;
   }
+
+  /* .accordion {
+    height: 20rem;
+    width: 100%;
+  } */
 
   .climb-text {
     width: 40%;
